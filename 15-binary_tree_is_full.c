@@ -4,10 +4,9 @@
  * binary_tree_is_full - checks if a binary tree is full
  * @tree: pointer to the root node of a tree
  * Return: number of nodes with at least one child
- *
  */
 
-int binary_tree_is_full(const binary_tree_t *tree);
+int binary_tree_is_full(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
